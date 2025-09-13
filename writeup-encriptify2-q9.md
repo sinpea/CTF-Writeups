@@ -131,9 +131,9 @@ However, the only response we get after submitting all numbers from 1-10 is:
 
 
 The way out here however, is to trigger an Integer overflow. In this case we need to cause an Int32 overflow.
-When we enter the number $ 2^32 + n $, where ` n ` is the number we want to actually put in the input field.
+When we enter the number $2^{32} + n$, where ` n ` is the number we want to actually put in the input field.
 
-The answer is $ n = 10 $ and we get the following bcrypt hash as our clue for the next stage of this problem:
+The answer is $n = 10$ and we get the following bcrypt hash as our clue for the next stage of this problem:
 
 
 ```
@@ -154,7 +154,7 @@ So now, we move on to the next section :)
 
 Page: https://test-project-2441139.vercel.app/login
 
-This is the last page of our problem. The contestant is expected to identify how the page works and try to
+This is the last page of ouhttps://www.reddit.com/r/EroticHypnosis/comments/1cz6gvn/mtf_hypnosis_recommendations/r problem. The contestant is expected to identify how the page works and try to
 find a way to login and successfuly Capture The Flag!
 
 This page however has a few oddities.
