@@ -127,7 +127,8 @@ So the answer will be any number in the range 1-10.
 
 However, the only response we get after submitting all numbers from 1-10 is:
 
-//insert image Here
+![/get-age sc](https://github.com/sinpea/CTF-Writeups/blob/main/encriptify-q9-1.png)
+
 
 The way out here however, is to trigger an Integer overflow. In this case we need to cause an Int32 overflow.
 When we enter the number $ 2^32 + n $, where ` n ` is the number we want to actually put in the input field.
@@ -258,8 +259,6 @@ We find that ` hash ` matches the ` fingerprint ` parameter on our POST request 
 
 Now, we want to find out how exactly the process for login works.
 Lets try and enter a randomish value as our username and password.
-
-//insert image here
 
 We get two more requests when we try to login:
   - ` POST /gentok `
