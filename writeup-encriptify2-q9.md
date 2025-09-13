@@ -127,7 +127,9 @@ So the answer will be any number in the range 1-10.
 
 However, the only response we get after submitting all numbers from 1-10 is:
 
-![/get-age sc](https://github.com/sinpea/CTF-Writeups/blob/main/encriptify-q9-1.png)
+```
+My daughter speaks in the language of the cryptic gods. You are not my daughter.
+```
 
 
 The way out here however, is to trigger an Integer overflow. In this case we need to cause an Int32 overflow.
